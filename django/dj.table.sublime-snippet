@@ -1,0 +1,21 @@
+<snippet>
+  <content><![CDATA[
+<table class="${1:table}">
+  <thead>
+    <tr>
+      <th>${2}</th>
+      <th>${3}</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for ${4:item} in ${5:items} %}
+      <tr>
+        <td>\{\{ ${4}.${6} \}\}</td>
+        <td>\{\{ ${4}.${7} \}\}</td>
+      </tr>
+    {% endfor %}
+  </tbody>
+</table>
+]]></content>
+  <tabTrigger>dtable</tabTrigger>
+</snippet>

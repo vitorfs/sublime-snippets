@@ -1,0 +1,6 @@
+<snippet>
+  <content><![CDATA[
+\{% url '${1:path}' ${2}%\}
+]]></content>
+  <tabTrigger>url</tabTrigger>
+</snippet>
