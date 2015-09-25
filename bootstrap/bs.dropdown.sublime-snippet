@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+<div class="btn-group">
+  <button type="button" class="btn btn-${1:default} dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+    ${2:Action} <span class="caret"></span>
+  </button>
+  <ul class="dropdown-menu">
+    <li><a href="${3:javascript:void(0);}">${4}</a></li>
+    ${5:<li role="separator" class="divider"></li>}
+  </ul>
+</div>
+]]></content>
+  <tabTrigger>dropdown</tabTrigger>
+</snippet>
