@@ -1,0 +1,60 @@
+[
+	{
+		"args":
+		{
+			"to": "bof"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "lines",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "#"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " coding:"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"characters": " utf-8"
+		},
+		"command": "insert"
+	}
+]
