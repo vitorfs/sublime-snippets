@@ -1,8 +1,8 @@
 <snippet>
   <content><![CDATA[
-{% highlight ${1:django} %}
+\{% highlight ${1:django} %\}
 ${2}
-{% endhighlight %}
+\{% endhighlight %\}
 ]]></content>
   <tabTrigger>high</tabTrigger>
 </snippet>
